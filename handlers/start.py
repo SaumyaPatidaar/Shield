@@ -14,7 +14,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     InputMediaPhoto
 )
-from config import BOT_USERNAME, SUPPORT_GROUP, UPDATE_CHANNEL, START_IMAGE, OWNER_ID
+from config import BOT_USERNAME, SUPPORT_GROUP, UPDATE_CHANNEL, OWNER_ID
 import db
 
 def register_handlers(app: Client):
@@ -23,6 +23,9 @@ def register_handlers(app: Client):
 # Start Message
 # ==========================================================
     async def send_start_menu(message, user):
+        user = message.from_user
+
+    user_mention = f'<a href="tg://user?id={user.id}">{user.first_name}</a>'
         text = f"""
 
    Hello {user_mention} ✨
