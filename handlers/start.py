@@ -23,10 +23,8 @@ def register_handlers(app: Client):
 # Start Message
 # ==========================================================
     async def send_start_menu(message, user):
-        user = message.from_user
-
     user_mention = f'<a href="tg://user?id={user.id}">{user.first_name}</a>'
-        text = f"""
+    text = f"""
 
    Hello {user_mention} ✨
 
