@@ -25,32 +25,33 @@ def register_handlers(app: Client):
     async def send_start_menu(message, user):
         text = f"""
 
-   ✨ Hello {user}! ✨
+   𝘏𝘦𝘭𝘭𝘰 {user} ✨
+𝘐 𝘢𝘮 𝗔𝗩𝗔𝗦𝗧 - 𝖦𝗋𝗈𝗎𝗉 𝖧𝖾𝗅𝗉𝖾𝗋. 
 
-👋 I am Nomad 🤖 
 
-Highlights:
+❖ 𝘏𝘪𝘨𝘩𝘭𝘪𝘨𝘩𝘵𝘴 :
 ─────────────────────────────
-- Smart Anti-Spam & Link Shield
-- Adaptive Lock System (URLs, Media, Language & more)
-- Modular & Scalable Protection
-- Sleek UI with Inline Controls
+✦ 𝘚𝘮𝘢𝘳𝘵 𝘈𝘯𝘵𝘪-𝘚𝘱𝘢𝘮 & 𝘓𝘪𝘯𝘬 𝘚𝘩𝘪𝘦𝘭𝘥
+✦ 𝘈𝘥𝘢𝘱𝘵𝘪𝘷𝘦 𝘓𝘰𝘤𝘬 𝘚𝘺𝘴𝘵𝘦𝘮 
+✦ 𝘜𝘙𝘓𝘴, 𝘔𝘦𝘥𝘪𝘢, 𝘓𝘢𝘯𝘨𝘶𝘢𝘨𝘦 & 𝘮𝘰𝘳𝘦.
+✦ 𝘔𝘰𝘥𝘶𝘭𝘢𝘳 & 𝘚𝘤𝘢𝘭𝘢𝘣𝘭𝘦 𝘗𝘳𝘰𝘵𝘦𝘤𝘵𝘪𝘰𝘯
+✦ 𝘚𝘭𝘦𝘦𝘬 𝘜𝘐 𝘸𝘪𝘵𝘩 𝘐𝘯𝘭𝘪𝘯𝘦 𝘊𝘰𝘯𝘵𝘳𝘰𝘭𝘴
 
-» More New Features coming soon ...
+☘ 𝘋𝘦𝘷𝘦𝘭𝘰𝘱𝘦𝘳 ; @khargyushh
 """
 
         buttons = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⚒️ Add to Group ⚒️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("• 𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 •", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [
-                InlineKeyboardButton("⌂ Support ⌂", url=SUPPORT_GROUP),
-                InlineKeyboardButton("⌂ Update ⌂", url=UPDATE_CHANNEL),
+                InlineKeyboardButton("• 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 •", url="https://t.me/khargosh_updates"),
+                InlineKeyboardButton("• 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 •", url="https://t.me/khargosh_updates"),
             ],
             [
-                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://user?id={OWNER_ID}"),
-                InlineKeyboardButton("Repo", url="https://github.com/LearningBotsOfficial/Nomade"),
+                InlineKeyboardButton("• 𝙊𝙬𝙣𝙚𝙧 •", url=f"tg://user?id=7284147034"),
+                InlineKeyboardButton("• 𝙍𝙚𝙥𝙤 •", url="https://github.com/"),
                 
             ],
-            [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
+            [InlineKeyboardButton("• 𝙃𝙚𝙡𝙥 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨 •", callback_data="help")]
         ])
 
         # If /start command, send a new photo
