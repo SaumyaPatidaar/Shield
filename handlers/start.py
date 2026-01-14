@@ -47,7 +47,7 @@ I am <a href="tg://resolve?domain={BOT_USERNAME}"><b>AVAST - Group Helper</b></a
                 InlineKeyboardButton("• 𝙐𝙥𝙙𝙖𝙩𝙚𝙨 •", url="https://t.me/khargosh_updates"),
             ],
             [
-                InlineKeyboardButton("• 𝙊𝙬𝙣𝙚𝙧 •", url=f"tg://user?id=7284147034"),
+                InlineKeyboardButton("• 𝙊𝙬𝙣𝙚𝙧 •", url=f"https://t.me/khargyushh"),
                 InlineKeyboardButton("• 𝙍𝙚𝙥𝙤 •", url="https://github.com/"),
                 
             ],
