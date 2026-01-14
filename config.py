@@ -18,9 +18,9 @@ DB_NAME = os.getenv("DB_NAME", "Cluster0")
 
 # Owner and bot details
 OWNER_ID = int(os.getenv("OWNER_ID", 0))
-BOT_USERNAME = os.getenv("BOT_USERNAME", "NomadeHelpBot")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "AvastGroupHelperBot")
 
 # Links and visuals
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/LearningBotsCommunity")
-UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "https://t.me/Learning_Bots")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/khargosh_updates")
+UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "https://t.me/khargosh_updates")
 START_IMAGE = os.getenv("START_IMAGE", "https://files.catbox.moe/uuxitf.jpg")
