@@ -14,7 +14,7 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
     InputMediaPhoto
 )
-from config import BOT_USERNAME, SUPPORT_GROUP, UPDATE_CHANNEL, OWNER_ID
+from config import BOT_USERNAME, SUPPORT_GROUP, UPDATE_CHANNEL, START_IMAGE, OWNER_ID
 import db
 
 def register_handlers(app: Client):
